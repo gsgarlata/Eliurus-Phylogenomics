@@ -1,0 +1,45 @@
+PLINK v1.90b5.3 64-bit (21 Feb 2018)
+Options in effect:
+  --allow-extra-chr 0
+  --file /home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/populations.plink
+  --mind 0.3
+  --out /home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100
+  --recode 12
+
+Hostname: node137
+Working directory: /work/lchikhi/Gabriele/eliurus/bin/ADMIXTURE
+Start time: Fri Jun 18 13:25:45 2021
+
+Random number seed: 1624015545
+515704 MB RAM detected; reserving 257852 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (9040 variants, 125 people).
+--file:
+/home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100-temporary.bed
++
+/home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100-temporary.bim
++
+/home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100-temporary.fam
+written.
+9040 variants loaded from .bim file.
+125 people (0 males, 0 females, 125 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100.nosex
+.
+4 people removed due to missing genotype data (--mind).
+IDs written to
+/home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100.irem
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 121 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.878484.
+9040 variants and 121 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to
+/home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100.ped
++
+/home/lchikhi/work/Gabriele/eliurus/results/ADMIXTURE/Eliurus_sp/Eliurus_sp/npop125_pop5_p4_r0.80_all_sp_nova_proj_min100/non_pruned/Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100.map
+... done.
+
+End time: Fri Jun 18 13:25:45 2021
