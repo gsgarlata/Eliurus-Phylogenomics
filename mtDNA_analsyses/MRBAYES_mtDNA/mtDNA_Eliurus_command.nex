@@ -1,0 +1,24 @@
+begin mrbayes;
+        set autoclose=yes nowarn=yes;
+        execute ./input/Eliurus_cytb_aligned_haps.nex;
+        outgroup EU349782.1_1_1140;
+        charset Subset1 = 2-1145\3 1-1145\3;
+        charset Subset2 = 3-1145\3;
+
+        partition PartitionFinder = 2:Subset1, Subset2;
+        set partition=PartitionFinder;
+
+        lset applyto=(1) nst=6 rates=invgamma;
+        lset applyto=(2) nst=6 rates=invgamma;
+
+        prset applyto=(all) ratepr=variable;
+        unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+        mcmcp ngen=10000000;
+        mcmcp Nruns=4;
+        mcmcp Mcmcdiagn=yes; 
+        mcmcp diagnfreq=10000;
+        mcmcp samplefreq=1000;
+        mcmcp printfreq=1000;
+        mcmc;
+end;
+
