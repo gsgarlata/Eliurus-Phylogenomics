@@ -5,22 +5,22 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 
 * [ADMIXTURE analysis](ADMIXTURE)
 
-* [de novo RAD-seq data assembly](main/stacks)
+* [de novo RAD-seq data assembly in stacks](stacks)
 
-* [PCA analysis](main/pca)
+* [PCA analysis](pca)
 
-* [species delimitation analyses](main/BPP_and_gdi)
+* [species delimitation analyses](BPP_and_gdi)
 
-* [%GC content analysis](main/GCcontent)
+* [%GC content analysis](GCcontent)
 
-* [Isolation-by-distance analysis](main/IBD)
+* [Isolation-by-distance analysis](IBD)
 
-* [Morphological analyses](main/morphology)
+* [Morphological analyses](morphology)
 
-* [mitocondrial DNA analyses](main/mtDNA_analyses)
+* [mitocondrial DNA analyses](mtDNA_analyses)
 
-* [Comparison mtDNA and RAD-seq genetic data](main/mtDNAvsRAD)
+* [Comparison mtDNA and RAD-seq genetic data](mtDNAvsRAD)
 
-* [RAD-seq phylogenomic analysis - RAXML](main/RAXML)
+* [RAD-seq phylogenomic analysis - RAXML](RAXML)
 
-* [Genotype Likelihood analyses in ANGSD](main/ANGSD)
+* [Genotype Likelihood analyses in ANGSD](ANGSD)
