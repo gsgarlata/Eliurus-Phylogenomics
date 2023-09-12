@@ -7,4 +7,4 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 
 * [de novo RAD-seq data assembly](main/stacks)
 
-* [PCA analysis] (main/pca)
+* [PCA analysis](main/pca)
