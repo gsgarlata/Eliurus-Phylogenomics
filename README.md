@@ -8,3 +8,9 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 * [de novo RAD-seq data assembly](main/stacks)
 
 * [PCA analysis](main/pca)
+
+* [species delimitation analyses](main/BPP_and_gdi)
+
+* [%GC content analysis](main/GCcontent)
+
+* [Isolation-by-distance analysis](main/IBD)
