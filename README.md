@@ -4,4 +4,4 @@ This repository provides the scripts and data used to perform the analysis of th
 If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https://www.biorxiv.org/content/10.1101/2022.10.21.513246v1).
 
 
-- [ADMIXTURE]: https://github.com/gsgarlata/Eliurus-Phylogenomics/tree/main/ADMIXTURE analysis
+- [ADMIXTURE analysis] (https://github.com/gsgarlata/Eliurus-Phylogenomics/tree/main/ADMIXTURE)
