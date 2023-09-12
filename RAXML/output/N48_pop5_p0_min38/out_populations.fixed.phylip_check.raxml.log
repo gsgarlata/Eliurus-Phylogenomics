@@ -1,0 +1,45 @@
+
+RAxML-NG v. 0.6.0 BETA released on 16.06.2018 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called as follows:
+
+raxml-ng-mpi --threads 4 --check --msa /home/lchikhi/work/Gabriele/eliurus/results/RAXML/input/Eliurus_sp/npop48_p0_r0.80_10inds_sp_min38/r.0.80.maf.0.05.moh.0.70/populations.fixed.phylip --model GTR+G4 --prefix /home/lchikhi/work/Gabriele/eliurus/results/RAXML/output/Eliurus_sp/npop48_p0_r0.80_10inds_sp_min38/r.0.80.maf.0.05.moh.0.70/out_populations.fixed.phylip_check
+
+Analysis options:
+  run mode: Alignment validation
+  start tree(s): 
+  random seed: 1624013389
+  tip-inner: ON
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: OFF
+  branch lengths: linked (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: hybrid MPI+PTHREADS (4 ranks x 4 threads)
+
+[00:00:00] Reading alignment from file: /home/lchikhi/work/Gabriele/eliurus/results/RAXML/input/Eliurus_sp/npop48_p0_r0.80_10inds_sp_min38/r.0.80.maf.0.05.moh.0.70/populations.fixed.phylip
+[00:00:00] Loaded alignment with 48 taxa and 12806 sites
+
+Alignment comprises 1 partitions and 12806 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 12806 / 12806
+Gaps: 15.14 %
+Invariant sites: 0.00 %
+
+
+Alignment can be successfully read by RAxML-NG.
+
+
+Execution log saved to: /work/lchikhi/Gabriele/eliurus/results/RAXML/output/Eliurus_sp/npop48_p0_r0.80_10inds_sp_min38/r.0.80.maf.0.05.moh.0.70/out_populations.fixed.phylip_check.raxml.log
+
+Analysis started: 18-Jun-2021 12:49:48 / finished: 18-Jun-2021 12:49:49
+
+Elapsed time: 0.926 seconds
+
