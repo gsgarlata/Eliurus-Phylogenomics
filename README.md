@@ -14,3 +14,13 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 * [%GC content analysis](main/GCcontent)
 
 * [Isolation-by-distance analysis](main/IBD)
+
+* [Morphological analyses](main/morphology)
+
+* [mitocondrial DNA analyses](main/mtDNA_analyses)
+
+* [Comparison mtDNA and RAD-seq genetic data](main/mtDNAvsRAD)
+
+* [RAD-seq phylogenomic analysis - RAXML](main/RAXML)
+
+* [Genotype Likelihood analyses in ANGSD](main/ANGSD)
