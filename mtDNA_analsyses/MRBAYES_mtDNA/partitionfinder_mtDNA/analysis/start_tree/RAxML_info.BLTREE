@@ -1,0 +1,119 @@
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 739 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.93%
+
+RAxML Model Optimization up to an accuracy of 1.000000 log likelihood units
+
+Using 3 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 1.0000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 217
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 177
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 345
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/usr/local/bioinfo/src/PartitionFinder/partitionfinder-2.1.1/programs/raxml_pthreads.linux -f e -s ./analysis/start_tree/filtered_source.phy -t ./analysis/start_tree/RAxML_fastTree.fastTREE -m GTRGAMMA -O -n BLTREE -p 123456789 -q ./analysis/start_tree/partitions.txt -w /work/jsalmona/Gabriele/eliurus/results/mrbayes_mtDNA_sequenced/partitionfinder_mtDNA/analysis/start_tree -e 1 -T 5 
+
+
+
+Model parameters (binary file format) written to: /work/jsalmona/Gabriele/eliurus/results/mrbayes_mtDNA_sequenced/partitionfinder_mtDNA/analysis/start_tree/RAxML_binaryModelParameters.BLTREE
+
+
+Overall Time for Tree Evaluation 8.465891
+Final GAMMA  likelihood: -13040.432176
+
+Number of free parameters for AIC-TEST(BR-LEN): 550
+Number of free parameters for AIC-TEST(NO-BR-LEN): 27
+
+
+Model Parameters of Partition 0, Name: Subset1, Type of Data: DNA
+alpha: 0.246673
+Tree-Length: 3.465564
+rate A <-> C: 1.749558
+rate A <-> G: 7.914601
+rate A <-> T: 1.339375
+rate C <-> G: 0.333585
+rate C <-> T: 16.924353
+rate G <-> T: 1.000000
+
+freq pi(A): 0.294591
+freq pi(C): 0.242684
+freq pi(G): 0.182975
+freq pi(T): 0.279751
+
+Model Parameters of Partition 1, Name: Subset2, Type of Data: DNA
+alpha: 0.160630
+Tree-Length: 3.465564
+rate A <-> C: 0.611711
+rate A <-> G: 6.723116
+rate A <-> T: 0.546230
+rate C <-> G: 0.404530
+rate C <-> T: 6.767104
+rate G <-> T: 1.000000
+
+freq pi(A): 0.226913
+freq pi(C): 0.292569
+freq pi(G): 0.136712
+freq pi(T): 0.343806
+
+Model Parameters of Partition 2, Name: Subset3, Type of Data: DNA
+alpha: 0.651256
+Tree-Length: 3.465564
+rate A <-> C: 0.309446
+rate A <-> G: 8.490720
+rate A <-> T: 0.380693
+rate C <-> G: 0.321316
+rate C <-> T: 5.061052
+rate G <-> T: 1.000000
+
+freq pi(A): 0.376475
+freq pi(C): 0.318279
+freq pi(G): 0.048108
+freq pi(T): 0.257137
+
+Final tree written to:                 /work/jsalmona/Gabriele/eliurus/results/mrbayes_mtDNA_sequenced/partitionfinder_mtDNA/analysis/start_tree/RAxML_result.BLTREE
+Execution Log File written to:         /work/jsalmona/Gabriele/eliurus/results/mrbayes_mtDNA_sequenced/partitionfinder_mtDNA/analysis/start_tree/RAxML_log.BLTREE

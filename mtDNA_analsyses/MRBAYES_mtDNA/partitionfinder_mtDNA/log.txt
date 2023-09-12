@@ -1,0 +1,56 @@
+INFO     | 2020-10-15 15:34:42,091 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2020-10-15 15:34:42,098 | config     | Setting 'alignment' to 'Eliurus_cytb_aligned_haps.phy'
+INFO     | 2020-10-15 15:34:42,098 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2020-10-15 15:34:42,098 | parser     | You set 'models' to: mrbayes
+INFO     | 2020-10-15 15:34:42,186 | model_load | This analysis will use the following 24 models of molecular evolution
+INFO     | 2020-10-15 15:34:42,186 | model_load | JC, K80, SYM, F81, HKY, GTR, JC+G, K80+G, SYM+G, F81+G, HKY+G, GTR+G, JC+I, K80+I, SYM+I, F81+I, HKY+I, GTR+I, JC+I+G, K80+I+G, SYM+I+G, F81+I+G, HKY+I+G, GTR+I+G
+INFO     | 2020-10-15 15:34:42,187 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2020-10-15 15:34:42,190 | config     | Setting 'search' to 'greedy'
+INFO     | 2020-10-15 15:34:42,190 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2020-10-15 15:34:42,190 | config     | Looking for alignment file './Eliurus_cytb_aligned_haps.phy'...
+INFO     | 2020-10-15 15:34:42,192 | analysis   | Beginning Analysis
+INFO     | 2020-10-15 15:34:42,213 | alignment  | Reading alignment file './Eliurus_cytb_aligned_haps.phy'
+INFO     | 2020-10-15 15:34:42,239 | analysis   | Starting tree will be estimated from the data.
+INFO     | 2020-10-15 15:34:42,239 | raxml      | Estimating Maximum Likelihood tree with RAxML fast experimental tree search for ./analysis/start_tree/filtered_source.phy
+INFO     | 2020-10-15 15:34:42,240 | raxml      | Using a separate GTR+G model for each data block
+INFO     | 2020-10-15 15:34:55,063 | raxml      | Estimating GTR+G branch lengths on ML tree using all partitions
+INFO     | 2020-10-15 15:35:03,545 | raxml      | ML topology estimation finished
+INFO     | 2020-10-15 15:35:03,546 | analysis_m | Performing Greedy Analysis
+INFO     | 2020-10-15 15:35:03,546 | analysis_m |    *** Analysing starting scheme ***
+INFO     | 2020-10-15 15:36:51,348 | progress   |       Finished subset 1/3, 33.33 percent done
+INFO     | 2020-10-15 15:38:55,659 | progress   |       Finished subset 2/3, 66.67 percent done
+INFO     | 2020-10-15 15:40:46,402 | progress   |       Finished subset 3/3, 100.00 percent done
+INFO     | 2020-10-15 15:40:46,404 | analysis_m |    ***Greedy algorithm step 1***
+INFO     | 2020-10-15 15:40:46,404 | analysis_m |       Analysing 3 new subset pairs
+INFO     | 2020-10-15 15:42:54,179 | progress   |       Finished subset 1/3, 33.33 percent done
+INFO     | 2020-10-15 15:45:33,683 | progress   |       Finished subset 2/3, 66.67 percent done
+INFO     | 2020-10-15 15:48:28,140 | progress   |       Finished subset 3/3, 100.00 percent done
+INFO     | 2020-10-15 15:48:28,141 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-10-15 15:48:28,143 | analysis_m |       Best scheme combines subsets: 'cytb_pos2' and 'cytb_pos1'
+INFO     | 2020-10-15 15:48:28,143 | analysis_m |       The best scheme improves the aicc score by 15.90 to 27929.7
+INFO     | 2020-10-15 15:48:28,147 | analysis_m |    ***Greedy algorithm step 2***
+INFO     | 2020-10-15 15:48:28,147 | analysis_m |       Analysing 1 new subset pairs
+INFO     | 2020-10-15 15:52:41,345 | progress   |       Finished subset 1/1, 100.00 percent done
+INFO     | 2020-10-15 15:52:41,348 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-10-15 15:52:41,348 | analysis_m |       Found no schemes that improve the score, stopping
+INFO     | 2020-10-15 15:52:41,349 | analysis_m |    Greedy algorithm finished after 2 steps
+INFO     | 2020-10-15 15:52:41,349 | analysis_m |    Best scoring scheme is scheme step_1, with aicc score of 27929.679
+INFO     | 2020-10-15 15:52:41,350 | model_util |    Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2020-10-15 15:52:41,352 | model_util |    
+INFO     | 2020-10-15 15:52:41,352 | model_util |    
+INFO     | 2020-10-15 15:52:41,353 | model_util |    *Citations for this analysis*
+INFO     | 2020-10-15 15:52:41,353 | model_util |    -----------------------------
+INFO     | 2020-10-15 15:52:41,353 | model_util |    
+INFO     | 2020-10-15 15:52:41,353 | model_util |    If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+INFO     | 2020-10-15 15:52:41,353 | model_util |    
+INFO     | 2020-10-15 15:52:41,353 | model_util |    For the version of PartitionFinder you used, please cite:
+INFO     | 2020-10-15 15:52:41,354 | model_util |    Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+INFO     | 2020-10-15 15:52:41,354 | model_util |    
+INFO     | 2020-10-15 15:52:41,354 | model_util |    For the greedy algorithm you used, please cite:
+INFO     | 2020-10-15 15:52:41,354 | model_util |    Lanfear, R., Calcott, B., Ho, S. Y., & Guindon, S. (2012). PartitionFinder: combined selection of partitioning schemes and substitution models for phylogenetic analyses. Molecular biology and evolution, 29(6), 1695-1701.
+INFO     | 2020-10-15 15:52:41,354 | model_util |    
+INFO     | 2020-10-15 15:52:41,354 | model_util |    Your analysis also used PhyML, so please cite:
+INFO     | 2020-10-15 15:52:41,354 | model_util |    Guindon, S., Dufayard, J. F., Lefort, V., Anisimova, M., Hordijk, W., & Gascuel, O. (2010). New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Systematic biology, 59(3), 307-321.
+INFO     | 2020-10-15 15:52:41,354 | model_util |    
+INFO     | 2020-10-15 15:52:41,359 | main       | Total processing time: 0:17:59 (h:m:s)
+INFO     | 2020-10-15 15:52:41,359 | main       | Processing complete.
