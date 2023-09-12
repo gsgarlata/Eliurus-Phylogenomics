@@ -5,7 +5,8 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 
 * [ADMIXTURE analysis](ADMIXTURE)
 
-* [de novo RAD-seq data assembly in stacks](stacks)
+* [de novo RAD-seq data assembly in stacks](stacks): de-novo assembly of raw reads from RAD-sequencing using the stacks software. The scripts include:
+      *the paramter exploration for catalog building, following [Paris et al., 2017](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12775)
 
 * [PCA analysis](pca)
 
