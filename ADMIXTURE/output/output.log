@@ -1,0 +1,155 @@
+Fri Jun 18 15:31:32 2021: Job 15200 started running.
+Fri Jun 18 15:31:32 2021: Job Parameters:
+Fri Jun 18 15:31:32 2021: Input file: Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100_results.zip
+Fri Jun 18 15:31:32 2021: Input type: ADMIXTURE
+Fri Jun 18 15:31:32 2021: CLUMPP search method: LargeKGreedy 
+Fri Jun 18 15:31:32 2021: MCL cluster size threshold: 0.1 (default)
+Fri Jun 18 15:31:32 2021: Extracting file: "Eliurus_sp_npop125_pop5_p4_r0.80_all_sp_nova_proj_min100_results.zip".
+Fri Jun 18 15:31:34 2021: Sorting input files by K
+Fri Jun 18 15:31:35 2021: Working on K=1
+Fri Jun 18 15:31:35 2021: Executing CLUMPP for K=1.
+Fri Jun 18 15:31:35 2021: Clustering K=1 with mcl.
+Fri Jun 18 15:31:35 2021: no cutoff was used
+Fri Jun 18 15:31:35 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:31:35 2021: Working on K=2
+Fri Jun 18 15:31:35 2021: Executing CLUMPP for K=2.
+Fri Jun 18 15:31:38 2021: Clustering K=2 with mcl.
+Fri Jun 18 15:31:38 2021: no cutoff was used
+Fri Jun 18 15:31:38 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:31:42 2021: Working on K=3
+Fri Jun 18 15:31:42 2021: Executing CLUMPP for K=3.
+Fri Jun 18 15:31:49 2021: Clustering K=3 with mcl.
+Fri Jun 18 15:31:49 2021: cutoff used: 0.61
+Fri Jun 18 15:31:49 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:31:51 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:31:52 2021: Working on K=4
+Fri Jun 18 15:31:52 2021: Executing CLUMPP for K=4.
+Fri Jun 18 15:32:03 2021: Clustering K=4 with mcl.
+Fri Jun 18 15:32:03 2021: cutoff used: 0.97
+Fri Jun 18 15:32:03 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:32:12 2021: Working on K=5
+Fri Jun 18 15:32:12 2021: Executing CLUMPP for K=5.
+Fri Jun 18 15:32:29 2021: Clustering K=5 with mcl.
+Fri Jun 18 15:32:29 2021: cutoff used: 0.58
+Fri Jun 18 15:32:29 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:32:35 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:32:38 2021: Working on K=6
+Fri Jun 18 15:32:38 2021: Executing CLUMPP for K=6.
+Fri Jun 18 15:33:02 2021: Clustering K=6 with mcl.
+Fri Jun 18 15:33:03 2021: cutoff used: 0.98
+Fri Jun 18 15:33:03 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:33:14 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:33:15 2021: Working on K=7
+Fri Jun 18 15:33:16 2021: Executing CLUMPP for K=7.
+Fri Jun 18 15:33:48 2021: Clustering K=7 with mcl.
+Fri Jun 18 15:33:48 2021: cutoff used: 0.66
+Fri Jun 18 15:33:48 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:33:52 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:33:56 2021: Working on K=8
+Fri Jun 18 15:33:57 2021: Executing CLUMPP for K=8.
+Fri Jun 18 15:34:38 2021: Clustering K=8 with mcl.
+Fri Jun 18 15:34:38 2021: cutoff used: 0.62
+Fri Jun 18 15:34:38 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:34:50 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:34:53 2021: Working on K=9
+Fri Jun 18 15:34:53 2021: Executing CLUMPP for K=9.
+Fri Jun 18 15:35:46 2021: Clustering K=9 with mcl.
+Fri Jun 18 15:35:46 2021: cutoff used: 0.58
+Fri Jun 18 15:35:46 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:36:28 2021: Working on K=10
+Fri Jun 18 15:36:29 2021: Executing CLUMPP for K=10.
+Fri Jun 18 15:37:33 2021: Clustering K=10 with mcl.
+Fri Jun 18 15:37:34 2021: cutoff used: 0.55
+Fri Jun 18 15:37:34 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:38:34 2021: Working on K=11
+Fri Jun 18 15:38:34 2021: Executing CLUMPP for K=11.
+Fri Jun 18 15:39:52 2021: Clustering K=11 with mcl.
+Fri Jun 18 15:39:52 2021: cutoff used: 0.50
+Fri Jun 18 15:39:52 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:40:42 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:40:44 2021: Working on K=12
+Fri Jun 18 15:40:45 2021: Executing CLUMPP for K=12.
+Fri Jun 18 15:42:16 2021: Clustering K=12 with mcl.
+Fri Jun 18 15:42:16 2021: cutoff used: 0.50
+Fri Jun 18 15:42:16 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:42:49 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:43:01 2021: Working on K=13
+Fri Jun 18 15:43:01 2021: Executing CLUMPP for K=13.
+Fri Jun 18 15:44:48 2021: Clustering K=13 with mcl.
+Fri Jun 18 15:44:48 2021: cutoff used: 0.50
+Fri Jun 18 15:44:48 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:45:26 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:45:43 2021: Working on K=14
+Fri Jun 18 15:45:43 2021: Executing CLUMPP for K=14.
+Fri Jun 18 15:47:47 2021: Clustering K=14 with mcl.
+Fri Jun 18 15:47:47 2021: cutoff used: 0.50
+Fri Jun 18 15:47:47 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:48:37 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:48:47 2021: Working on K=15
+Fri Jun 18 15:48:47 2021: Executing CLUMPP for K=15.
+Fri Jun 18 15:51:09 2021: Clustering K=15 with mcl.
+Fri Jun 18 15:51:09 2021: cutoff used: 0.50
+Fri Jun 18 15:51:09 2021: Executing CLUMPP for major cluster.
+Fri Jun 18 15:51:44 2021: Executing CLUMPP for minor clusters.
+Fri Jun 18 15:52:10 2021: Ordering clusters by size for K=1
+Fri Jun 18 15:52:10 2021: Calling distruct for K=1.MajorCluster
+Fri Jun 18 15:52:11 2021: Calculating best Average Distance between K=1 and K=2..
+Fri Jun 18 15:52:11 2021: Calling distruct for K=2.MajorCluster
+Fri Jun 18 15:52:12 2021: Calculating best Average Distance between K=2 and K=3..
+Fri Jun 18 15:52:12 2021: Calling distruct for K=3.MajorCluster
+Fri Jun 18 15:52:13 2021: Calculating best Average Distance between K=3 and K=4..
+Fri Jun 18 15:52:13 2021: Calling distruct for K=4.MajorCluster
+Fri Jun 18 15:52:13 2021: Calculating best Average Distance between K=4 and K=5..
+Fri Jun 18 15:52:14 2021: Calling distruct for K=5.MajorCluster
+Fri Jun 18 15:52:14 2021: Calculating best Average Distance between K=5 and K=6..
+Fri Jun 18 15:52:15 2021: Calling distruct for K=6.MajorCluster
+Fri Jun 18 15:52:16 2021: Calculating best Average Distance between K=6 and K=7..
+Fri Jun 18 15:52:26 2021: Calling distruct for K=7.MajorCluster
+Fri Jun 18 15:52:27 2021: Calculating best Average Distance between K=7 and K=8..
+Fri Jun 18 15:53:53 2021: Calling distruct for K=8.MajorCluster
+Fri Jun 18 15:53:54 2021: Calculating best Average Distance between K=8 and K=9..
+Fri Jun 18 15:53:54 2021: Calling distruct for K=9.MajorCluster
+Fri Jun 18 15:53:55 2021: Calculating best Average Distance between K=9 and K=10..
+Fri Jun 18 15:53:55 2021: Calling distruct for K=10.MajorCluster
+Fri Jun 18 15:53:56 2021: Calculating best Average Distance between K=10 and K=11..
+Fri Jun 18 15:53:56 2021: Calling distruct for K=11.MajorCluster
+Fri Jun 18 15:53:56 2021: Calculating best Average Distance between K=11 and K=12..
+Fri Jun 18 15:53:56 2021: Calling distruct for K=12.MajorCluster
+Fri Jun 18 15:53:57 2021: Calculating best Average Distance between K=12 and K=13..
+Fri Jun 18 15:53:57 2021: Calling distruct for K=13.MajorCluster
+Fri Jun 18 15:53:58 2021: Calculating best Average Distance between K=13 and K=14..
+Fri Jun 18 15:53:58 2021: Calling distruct for K=14.MajorCluster
+Fri Jun 18 15:53:59 2021: Calculating best Average Distance between K=14 and K=15..
+Fri Jun 18 15:53:59 2021: Calling distruct for K=15.MajorCluster
+Fri Jun 18 15:54:00 2021: Calculating best Average Distance between large cluster and K=3.MinorCluster1..
+Fri Jun 18 15:54:00 2021: Calling distruct for K=3.MinorCluster1
+Fri Jun 18 15:54:01 2021: Calculating best Average Distance between large cluster and K=3.MinorCluster2..
+Fri Jun 18 15:54:01 2021: Calling distruct for K=3.MinorCluster2
+Fri Jun 18 15:54:01 2021: Calculating best Average Distance between large cluster and K=5.MinorCluster1..
+Fri Jun 18 15:54:01 2021: Calling distruct for K=5.MinorCluster1
+Fri Jun 18 15:54:02 2021: Calculating best Average Distance between large cluster and K=6.MinorCluster1..
+Fri Jun 18 15:54:03 2021: Calling distruct for K=6.MinorCluster1
+Fri Jun 18 15:54:04 2021: Calculating best Average Distance between large cluster and K=7.MinorCluster1..
+Fri Jun 18 15:54:14 2021: Calling distruct for K=7.MinorCluster1
+Fri Jun 18 15:54:15 2021: Calculating best Average Distance between large cluster and K=7.MinorCluster2..
+Fri Jun 18 15:54:24 2021: Calling distruct for K=7.MinorCluster2
+Fri Jun 18 15:54:25 2021: Calculating best Average Distance between large cluster and K=7.MinorCluster3..
+Fri Jun 18 15:54:35 2021: Calling distruct for K=7.MinorCluster3
+Fri Jun 18 15:54:36 2021: Calculating best Average Distance between large cluster and K=8.MinorCluster1..
+Fri Jun 18 15:56:03 2021: Calling distruct for K=8.MinorCluster1
+Fri Jun 18 15:56:04 2021: Calculating best Average Distance between large cluster and K=8.MinorCluster2..
+Fri Jun 18 15:57:31 2021: Calling distruct for K=8.MinorCluster2
+Fri Jun 18 15:57:32 2021: Calculating best Average Distance between large cluster and K=8.MinorCluster3..
+Fri Jun 18 15:58:59 2021: Calling distruct for K=8.MinorCluster3
+Fri Jun 18 15:59:00 2021: Calculating best Average Distance between large cluster and K=11.MinorCluster1..
+Fri Jun 18 15:59:00 2021: Calling distruct for K=11.MinorCluster1
+Fri Jun 18 15:59:01 2021: Calculating best Average Distance between large cluster and K=12.MinorCluster1..
+Fri Jun 18 15:59:01 2021: Calling distruct for K=12.MinorCluster1
+Fri Jun 18 15:59:02 2021: Calculating best Average Distance between large cluster and K=13.MinorCluster1..
+Fri Jun 18 15:59:02 2021: Calling distruct for K=13.MinorCluster1
+Fri Jun 18 15:59:02 2021: Calculating best Average Distance between large cluster and K=14.MinorCluster1..
+Fri Jun 18 15:59:02 2021: Calling distruct for K=14.MinorCluster1
+Fri Jun 18 15:59:03 2021: Calculating best Average Distance between large cluster and K=15.MinorCluster1..
+Fri Jun 18 15:59:03 2021: Calling distruct for K=15.MinorCluster1
+Fri Jun 18 15:59:04 2021: Creating job summary PDF
+Fri Jun 18 15:59:04 2021: Creating job zip file
