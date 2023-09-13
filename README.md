@@ -31,8 +31,13 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
    * Maximum-likelihhod phylogenetic inference carried out on RAXML ([RAXML_mtDNA](mtDNA_analsyses/RAXML_mtDNA));
    * Calculation of mitochondrial *cytb* genetic distances ([mtDNA_genetic_distances](mtDNA_analsyses/mtDNA_genetic_distances));
 
-* [Comparison mtDNA and RAD-seq genetic data](mtDNAvsRAD)
+* [Comparison mtDNA and RAD-seq genetic data](mtDNAvsRAD): This folder includes scripts for:
+   * calculating nuclear (RAD-seq) genomic distances between individuals;
+   * comparing mitochondrial *cytb* and nuclear RAD-seq genetic distances;
 
-* [RAD-seq phylogenomic analysis - RAXML](RAXML)
+* [RAD-seq phylogenomic analysis - RAXML](RAXML): This folder includes scripts for:
+   * inferring *Eliurus* phylogenetic relationships from concatenated nuclear RAD-seq genomic data;
+   * inferring *Eliurus* phylogenetic relationships from partitioned nuclear RAD-seq genomic data;
+   * plotting the inferred phylogenetic trees;
 
 * [Genotype Likelihood analyses in ANGSD](ANGSD)
