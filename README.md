@@ -36,8 +36,8 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
    * comparing mitochondrial *cytb* and nuclear RAD-seq genetic distances;
 
 * [RAD-seq phylogenomic analysis - RAXML](RAXML): This folder includes scripts for:
-   * inferring *Eliurus* phylogenetic relationships from concatenated nuclear RAD-seq genomic data;
-   * inferring *Eliurus* phylogenetic relationships from partitioned nuclear RAD-seq genomic data;
-   * plotting the inferred phylogenetic trees;
+   * inferring *Eliurus* phylogenetic relationships from concatenated nuclear RAD-seq genomic data ([RAXML concatenated](RAXML/step1.1.raxml_HPC.sh));
+   * inferring *Eliurus* phylogenetic relationships from partitioned nuclear RAD-seq genomic data ([RAXML partitioned](RAXML/step1.2.raxml_HPC_partitioned.sh));
+   * plotting the inferred phylogenetic trees ([plotting RAXML trees](RAXML/Plot_raxml_RADseq_tree.R));
 
 * [Genotype Likelihood analyses in ANGSD](ANGSD)
