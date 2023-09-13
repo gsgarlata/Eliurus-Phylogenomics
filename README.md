@@ -13,7 +13,9 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 
 * [Principal Component Analysis](pca): principal component analysis on RAD-seq genomic data for distinguishing the different *Eliurus* species included in the dataset.
 
-* [species delimitation analyses](BPP_and_gdi)
+* [Species delimitation analyses](BPP_and_gdi): This forlder contains scripts for species delimitation validation:
+   * species delimitation analysis with guided tree (A01 method) performed in BPP;
+   * calculation of the genealogical divergence index (gdi) based on parameters estimated in BPP (A00 method);
 
 * [%GC content analysis](GCcontent)
 
