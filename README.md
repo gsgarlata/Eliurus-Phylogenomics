@@ -3,8 +3,6 @@
 This repository provides the scripts and data used to perform the analysis of the [Sgarlata et al., 2023](https://www.biorxiv.org/content/10.1101/2022.10.21.513246v1) study entitled: "The Genomic Diversity of the Eliurus genus in northern Madagascar with a Putative New Species".
 If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https://www.biorxiv.org/content/10.1101/2022.10.21.513246v1).
 
-* [ADMIXTURE analysis](ADMIXTURE)
-
 
 * [de novo RAD-seq data assembly in stacks](stacks): de-novo assembly of raw reads from RAD-sequencing using the stacks software. The scripts include:
    * parameters' exploration for catalog building, following [Paris et al., 2017](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12775) ([parameter_tuning](stacks/parameter_tuning));
@@ -13,6 +11,8 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 
 * [Principal Component Analysis](pca): principal component analysis on RAD-seq genomic data for distinguishing the different *Eliurus* species included in the dataset.
 
+* [ADMIXTURE analysis](ADMIXTURE): This folder includes scripts for carrying out ADMIXTURE analysis and data plotting.
+
 * [Species delimitation analyses](BPP_and_gdi): This forlder contains scripts for species delimitation validation:
    * species delimitation analysis with guided tree (A01 method) performed in BPP ([A01 analysis](BPP_and_gdi/A01_species_delimitation_analysis.sh));
    * calculation of the genealogical divergence index (gdi) based on parameters estimated in BPP ([A00 analysis](BPP_and_gdi/A00_estimate_analysis.sh));
@@ -20,11 +20,6 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 * [%GC content analysis](GCcontent): This script estimates the percentage of GC content for each individual in the dataset, using fasta files (obtained from stacks) imported in R. 
 
 * [Isolation-by-distance analysis](IBD): It performs the *ad-hoc* species delimitation test of isolation-by-distance within *versus* between sister-taxa.
-
-* [Morphological analyses](morphology): This folder includes several scripts for *Eliurus* morphological data analysis.
-   * Discriminant Analysis of Principal Components (DAPC), used for maximising differences in morphology between *Eliurus* species and identifying the morphological variable that best discriminate the five *Eliurus* species included in the dataset ([DAPC analysis](morphology/DAPC_analysis_morphology.R));
-   * Phylogenetic Generalized Least Squares (PGLS) analysis to measure correlations between morphological variables and 20 bioclimatic variables, while accounting for phylogenetic relatedness ([PGLS analysis](morphology/PGLS_analysis_and_plotting.R));
-
  
 * [mitocondrial DNA analyses](mtDNA_analyses): This folder includes scripts for reconstructing the *Eliurus* phylogenetic tree using mitochondrial cytb sequences.
    * Bayesian phylogenetic inference carried out on MRBAYES ([MRBAYES_mtDNA](mtDNA_analsyses/MRBAYES_mtDNA));
@@ -41,3 +36,7 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
    * plotting the inferred phylogenetic trees ([plotting RAXML trees](RAXML/Plot_raxml_RADseq_tree.R));
 
 * [Genotype Likelihood analyses in ANGSD](ANGSD): This folder includes scripts for obtaining genotype-likelihood from raw RAD-seq data.
+
+* [Morphological analyses](morphology): This folder includes several scripts for *Eliurus* morphological data analysis.
+   * Discriminant Analysis of Principal Components (DAPC), used for maximising differences in morphology between *Eliurus* species and identifying the morphological variable that best discriminate the five *Eliurus* species included in the dataset ([DAPC analysis](morphology/DAPC_analysis_morphology.R));
+   * Phylogenetic Generalized Least Squares (PGLS) analysis to measure correlations between morphological variables and 20 bioclimatic variables, while accounting for phylogenetic relatedness ([PGLS analysis](morphology/PGLS_analysis_and_plotting.R));
