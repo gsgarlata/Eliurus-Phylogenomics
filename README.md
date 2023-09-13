@@ -17,9 +17,9 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
    * species delimitation analysis with guided tree (A01 method) performed in BPP;
    * calculation of the genealogical divergence index (gdi) based on parameters estimated in BPP (A00 method);
 
-* [%GC content analysis](GCcontent)
+* [%GC content analysis](GCcontent): This script estimates the percentage of GC content for each individual in the dataset, using fasta files (obtained from stacks) imported in R. 
 
-* [Isolation-by-distance analysis](IBD)
+* [Isolation-by-distance analysis](IBD): It performs the *ad-hoc* species delimitation test of isolation-by-distance within *versus* between sister-taxa.
 
 * [Morphological analyses](morphology)
 
