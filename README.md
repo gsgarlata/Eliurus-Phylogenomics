@@ -11,7 +11,6 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
    * catalog building ([catalog_final](stacks/catalog_final));
    * data assembly and genotype calling ([final](stacks/final));
 
-
 * [Principal Component Analysis](pca): principal component analysis on RAD-seq genomic data for distinguishing the different *Eliurus* species included in the dataset.
 
 * [species delimitation analyses](BPP_and_gdi)
