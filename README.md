@@ -22,7 +22,9 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 * [Isolation-by-distance analysis](IBD): It performs the *ad-hoc* species delimitation test of isolation-by-distance within *versus* between sister-taxa.
 
 * [Morphological analyses](morphology): This folder includes several scripts for *Eliurus* morphological data analysis.
-   * Discriminant Analysis of Principal Components (DAPC), used for maximising differences in morphology between *Eliurus* species and identifying the morphological variable that best discriminate the five *Eliurus* species included in the dataset. 
+   * Discriminant Analysis of Principal Components (DAPC), used for maximising differences in morphology between *Eliurus* species and identifying the morphological variable that best discriminate the five *Eliurus* species included in the dataset.
+   * Phylogenetic Generalized Least Squares (PGLS) analysis to measure correlations between morphological variables and 20 bioclimatic variables, while accounting for phylogenetic relatedness.
+
  
 * [mitocondrial DNA analyses](mtDNA_analyses)
 
