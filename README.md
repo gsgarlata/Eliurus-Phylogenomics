@@ -26,7 +26,10 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
    * Phylogenetic Generalized Least Squares (PGLS) analysis to measure correlations between morphological variables and 20 bioclimatic variables, while accounting for phylogenetic relatedness.
 
  
-* [mitocondrial DNA analyses](mtDNA_analyses)
+* [mitocondrial DNA analyses](mtDNA_analyses): This folder includes scripts for reconstructing the *Eliurus* phylogenetic tree using mitochondrial cytb sequences.
+   * Bayesian phylogenetic inference carried out on MRBAYES ([MRBAYES_mtDNA](mtDNA_analysis/MRBAYES_mtDNA));
+   * Maximum-likelihhod phylogenetic inference carried out on RAXML ([RAXML_mtDNA])(mtDNA_analyses/RAXML_mtDNA));
+   * Calculation of mitochondrial cytb genetic distances ([mtDNA_genetic_distances])(mtDNA_analyses/mtDNA_genetic_distances));
 
 * [Comparison mtDNA and RAD-seq genetic data](mtDNAvsRAD)
 
