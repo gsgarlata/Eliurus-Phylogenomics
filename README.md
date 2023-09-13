@@ -5,11 +5,14 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 
 * [ADMIXTURE analysis](ADMIXTURE)
 
-* [de novo RAD-seq data assembly in stacks](stacks): de-novo assembly of raw reads from RAD-sequencing using the stacks software. The scripts include:
-   * paramter exploration for catalog building, following [Paris et al., 2017](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12775) ([parameter_tuning](stacks/parameter_tuning) folder);
-   * catalog building ([catalog_final](stacks/catalog_final) folder);
 
-* [PCA analysis](pca)
+* [de novo RAD-seq data assembly in stacks](stacks): de-novo assembly of raw reads from RAD-sequencing using the stacks software. The scripts include:
+   * parameters' exploration for catalog building, following [Paris et al., 2017](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12775) ([parameter_tuning](stacks/parameter_tuning));
+   * catalog building ([catalog_final](stacks/catalog_final));
+   * data assembly and genotype calling ([final](stacks/final));
+
+
+* [Principal Component Analysis](pca): principal component analysis on RAD-seq genomic data for distinguishing the different *Eliurus* species included in the dataset.
 
 * [species delimitation analyses](BPP_and_gdi)
 
