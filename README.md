@@ -7,7 +7,7 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 
 * [de novo RAD-seq data assembly in stacks](stacks): de-novo assembly of raw reads from RAD-sequencing using the stacks software. The scripts include:
    * paramter exploration for catalog building, following [Paris et al., 2017](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12775) ([parameter_tuning](stacks/parameter_tuning) folder);
-   *  
+   * catalog building ([catalog_final](stacks/catalog_final) folder);
 
 * [PCA analysis](pca)
 
