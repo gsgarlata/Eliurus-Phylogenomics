@@ -22,8 +22,8 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
 * [Isolation-by-distance analysis](IBD): It performs the *ad-hoc* species delimitation test of isolation-by-distance within *versus* between sister-taxa.
 
 * [Morphological analyses](morphology): This folder includes several scripts for *Eliurus* morphological data analysis.
-   * Discriminant Analysis of Principal Components (DAPC), used for maximising differences in morphology between *Eliurus* species and identifying the morphological variable that best discriminate the five *Eliurus* species included in the dataset.
-   * Phylogenetic Generalized Least Squares (PGLS) analysis to measure correlations between morphological variables and 20 bioclimatic variables, while accounting for phylogenetic relatedness.
+   * Discriminant Analysis of Principal Components (DAPC), used for maximising differences in morphology between *Eliurus* species and identifying the morphological variable that best discriminate the five *Eliurus* species included in the dataset ([DAPC analysis](morphology/DAPC_analysis_morphology.R));
+   * Phylogenetic Generalized Least Squares (PGLS) analysis to measure correlations between morphological variables and 20 bioclimatic variables, while accounting for phylogenetic relatedness ([PGLS analysis](morphology/PGLS_analysis_and_plotting.R));
 
  
 * [mitocondrial DNA analyses](mtDNA_analyses): This folder includes scripts for reconstructing the *Eliurus* phylogenetic tree using mitochondrial cytb sequences.
@@ -32,12 +32,12 @@ If you use these scripts or workflow, please cite [Sgarlata et al., 2023](https:
    * Calculation of mitochondrial *cytb* genetic distances ([mtDNA_genetic_distances](mtDNA_analsyses/mtDNA_genetic_distances));
 
 * [Comparison mtDNA and RAD-seq genetic data](mtDNAvsRAD): This folder includes scripts for:
-   * calculating nuclear (RAD-seq) genomic distances between individuals;
-   * comparing mitochondrial *cytb* and nuclear RAD-seq genetic distances;
+   * calculating nuclear (RAD-seq) genomic distances between individuals ([nuclear RAD-seq genetic distances](mtDNAvsRAD/step1.RAD_genetic_distance.R));
+   * comparing mitochondrial *cytb* and nuclear RAD-seq genetic distances ([nuclear *versus* mtDNA genetic distances](mtDNAvsRAD/step2.Plot_GeneticDistance_mtDNAvsRAD.R));
 
 * [RAD-seq phylogenomic analysis - RAXML](RAXML): This folder includes scripts for:
    * inferring *Eliurus* phylogenetic relationships from concatenated nuclear RAD-seq genomic data ([RAXML concatenated](RAXML/step1.1.raxml_HPC.sh));
    * inferring *Eliurus* phylogenetic relationships from partitioned nuclear RAD-seq genomic data ([RAXML partitioned](RAXML/step1.2.raxml_HPC_partitioned.sh));
    * plotting the inferred phylogenetic trees ([plotting RAXML trees](RAXML/Plot_raxml_RADseq_tree.R));
 
-* [Genotype Likelihood analyses in ANGSD](ANGSD)
+* [Genotype Likelihood analyses in ANGSD](ANGSD): This folder includes scripts for obtaining genotype-likelihood from raw RAD-seq data.
